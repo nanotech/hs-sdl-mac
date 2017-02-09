@@ -37,6 +37,10 @@ resolver: lts-7.7
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
+- location:
+    git: https://github.com/nanotech/cabal-macosx.git
+    commit: c7b56aed7612126a7b6f5126f9a0b3d650983f65
+  extra-dep: true
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps:
