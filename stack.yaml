@@ -39,7 +39,7 @@ packages:
 - '.'
 - location:
     git: https://github.com/nanotech/cabal-macosx.git
-    commit: c7b56aed7612126a7b6f5126f9a0b3d650983f65
+    commit: 5b20bfc877757d14195dbb1f76b9b27d1f956e33
   extra-dep: true
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
